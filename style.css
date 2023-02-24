@@ -1,0 +1,28 @@
+#tabela-dados {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 1em;
+  }
+  
+  #tabela-dados caption {
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-bottom: 0.5em;
+  }
+  
+  #tabela-dados th {
+    background-color: #ccc;
+    color: #333;
+    padding: 0.5em;
+    text-align: left;
+  }
+  
+  #tabela-dados td {
+    border: 1px solid #ccc;
+    padding: 0.5em;
+  }
+  
+  #tabela-dados tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
